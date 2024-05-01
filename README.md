@@ -5,7 +5,7 @@ Video to MP3 CLI tool built on microservice architecture
 1. Clone the repository to your local machine
 2. Download Docker, kubectl, minikube, k9s
 
-#Setup
+# Setup
 1. start the mysql server with 'mysql.server start' and add your email to the init.sql file
 2. execute 'mysql -uroot < init.sql' to pass in the sql file
 3. access host database using 'sudo vim /etc/hosts'
