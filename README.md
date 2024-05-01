@@ -24,5 +24,5 @@ Video to MP3 CLI tool built on microservice architecture
 # Instructions
 1. Request access token from command line (curl -X POST http://mp3converter.com/login -u email:password)
 2. access upload endpoint and pass token as parameter (curl -X POST -F 'file=@./test.mkv' -H 'Authorization: Bearer token' http://mp3converter.com/upload)
-3. access your email and pass the file id in the url to download the mp3 file (curl --output filename.mp3 -X GET -H 'Authorization: Bearer token' "http://mp3converter.com/download?fid=file_id"
+3. access your email and pass the file id in the url to download the mp3 (curl --output filename.mp3 -X GET -H 'Authorization: Bearer token' "http://mp3converter.com/download?fid=file_id"
 
